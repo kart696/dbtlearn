@@ -5,7 +5,7 @@ select
     listing_id,
     DATE as review_date,
     reviewer_name,
-    comments as review_text,
+    comments as review_cmt,
     sentiment as review_sentiments
 from
     raw_reviews
